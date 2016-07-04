@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "PointTechnique\\": "src/PointTechnique"
+        }
+
+    },
+
+    "require": {
+        "mouf/mouf": "^2.0.0",
+        "mouf/mvc.splash": "^8.0.0",
+        "mouf/utils.console": "^1.0.0",
+        "thecodingmachine/swift-twig-mail-template": "^5.0.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

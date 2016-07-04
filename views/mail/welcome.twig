@@ -1,0 +1,10 @@
+{% block subject %}
+    Welcome mail for Point technique
+{% endblock %}
+
+{% block body_html %}
+    <img src="{{ embedImage(constant('ROOT_PATH')~'/public/img/header.png') }}" alt="header">
+
+    <h1>Hello {{message}}!</h1>
+    <h2>Welcome to the best Point technique ever!!!</h2>
+{% endblock %}
